@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 992px) {
+    * {
+      flex: 100%;
+    }
+  }
+@media screen and (max-width: 600px) {
+    * {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: space-between;
+      align-items: center;
+    }
+  }
+h1 {
+    font-family: 'Merriweather', serif;
+    line-height: 1.7;
+    font-size: 2em;
+    color: rgb(73, 72, 72);
+    padding: 0px 0px 10px 0px;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: rgba(59, 59, 62, 0.999);
+}
+
+a {
+    text-decoration: none; 
+    color: hsl(107, 92%, 51%);
+    font-family: sans-serif;
+    font-size: large;
+    line-height: 1.7;
+}
+a:hover{
+    color: deeppink;
+}
+
+.playtime {
+    padding: 20px;
+}
+.playtime ul{
+    list-style: none;
+}
+.playtime li {
+    display: inline;
+    float: right;
+    padding: 5px;
+}
+.playtime a {
+    text-decoration: none; 
+    color: darkblue;
+    font-weight: normal;
+    letter-spacing: 0.5;
+}
+.playtime a:hover {
+    color: deeppink;
+}
+
+.logo {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 0, 255);
+    text-decoration:solid;
+    text-decoration: wavy;
+    font-weight: bolder;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+     padding-top: 20px ;
+     padding-bottom: 20px;
+}
+
+.navbar {
+    display: block;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 20px;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+   }
+.navbar a {
+    text-decoration: none; 
+    color: darkblue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.navbar a:hover {
+    color: deeppink;
+}
+.showcase {
+    background-image: url(../assets/backgroundheader.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 300px;
+    margin-bottom: 30px;
+}
+.headline {
+    display: flex;
+    float: right;
+    flex-grow: 2;
+    font-family: 'Merriweather', serif;
+    line-height: 1.7;
+    font-size: 2em;
+    letter-spacing: 2px;
+    align-items: center;
+    padding: 50px 50px;
+}
+.headline h1 {
+    font-size: 50px;
+    padding-left: 100px;
+    color: white;
+}
+.tricks {
+    padding: 20px;
+}
+.tricks ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;    
+}
+.tricks li {
+    padding: 50 20 20 0;
+    padding-right: 30px;
+    text-align: right;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-bottom: 30px;
+}
+.contentleft {
+    display: block;
+    padding: 0px 20px 0 20px;
+    width: 40%;
+}
+.contentright {
+   padding:20px 30px 30px 20px;
+   display: block;
+   width: 40%;
+}
+
+.containerfooter {
+    display:block;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    padding: 20px;
+    background-color: rgba(167, 167, 171, 0.999);
+   margin-top: 30px;
+   font-size: small;
+   color: white;
+}
+.containerfooter a {
+    color: white;
+    display: inline;
+}
+.containerfooter a:hover {
+    color: deeppink;
+}
+.containerfooter ul {
+    list-style: none;
+}
+.containerfooter li {
+    display: inline;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+/*otherpages*/
+.showcase2 {
+    background-image: url(../assets/backgroundheader.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+
+
+.page3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+.aboutab {
+    display: block;
+    object-fit: fill;
+    padding: 20px;
+    border: rgba(167, 167, 171, 0.999) 5px solid;
+    width:100%;
+    margin: 20px;
+}
+.image {
+    width: 100%;
+}
+.rightsidebar {
+    display: block;
+    width: 30%;
+}
+.textrightsidebar {
+    padding-bottom: 20px;
+}
+.coding {
+    border: rgba(167, 167, 171, 0.999) 5px solid; 
+   width: 100%;
+   padding: 10px;
+}
+.coding img {
+    width: 100%;
+    margin-right: 20px;
+}
+
+h3 {
+    color: darkblue;    
+}
+h5 {
+    font-style: italic;
+}
+
+.page4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.contactinfo {
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.map {
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    border:rgba(167, 167, 171, 0.999) 5px solid; 
+}
+.mapouter {
+    display:flex;   
+}
+.page4form {
+    width:30%;
+}
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    line-height: 20px;
+    color: rgb(73, 72, 72);
+    border: 5px rgba(167, 167, 171, 0.999) solid;
+    background-color: lightcyan;
+    margin-top: 20px;
+}
+.formgroup {
+    display: flex;
+    padding: 15px;
+}
+.formgroup label {
+    display: block;
+   padding: 5px;
+}
+.myform input {
+    display: block;
+    width: 100%;
+}
+.textarea {
+    line-height: 40px;
+}
+.button {
+    display: block;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa :hover {
+  opacity: 0.7;
+  }
+  
+  .leftColumn {
+      background-color: rgb(68, 68, 173);
+      color: white;
+      overflow: hidden;
+      margin: 28px 0 0 0;
+      display: inline block;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  #subscribe input[type=submit] {
+      border: 0;
+      width: 80px;
+      height: 30px;
+      font-size: 14px;
+      background-color:rgb(68, 68, 173);
+      color: white;
+      border-radius: 30px;
+      -webkit-transition: all 500ms ease-out;
+      -ms-transition: all 500ms ease-out;
+      transition: all 500ms ease-out;
+      cursor: pointer;
+  }
+  
+  #subscribe input[type=submit]:hover {
+      background-color: blueviolet;
+      -webkit-transition: all 250ms ease-out;
+      -ms-transition: all 250ms ease-out;
+      transition: all 250ms ease-out;
+  }
+  
